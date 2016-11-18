@@ -11,7 +11,7 @@ angular.module('new2App')
   .controller('list1', function ($scope,$http) {
      $http({
      	methed:"get",
-     	url:"http://www.somenote.cn:1602/list1"
+     	url:"http://www.somenote.cn:1510/test"
      }).success(function(data){
      	$scope.wyc=data
      })
